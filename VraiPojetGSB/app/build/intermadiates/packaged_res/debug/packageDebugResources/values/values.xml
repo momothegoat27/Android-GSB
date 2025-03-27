@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Ajout_echantillon"> Ajouter un nouvel échantillon </string>
+    <string name="Liste_echantillon"> Liste des échantillons </string>
+    <string name="Maj_echantillon"> Maj échantillon </string>
+    <string name="app_name">PojetGSB</string>
+    <style name="Base.Theme.PojetGSB" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.PojetGSB" parent="Base.Theme.PojetGSB"/>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="660dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="70dp">
+
+        <TextView
+            android:id="@+id/ajoutTextViewEchantillon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saisie d’un échantillon "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ajoutEditTextCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Saisir ici un code"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/ajoutEditTextLib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Saisir ici un libellé"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/ajoutEditTextStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Saisir ici un stock"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ajoutButtonAjouter"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:text="Ajouter" />
+
+            <Button
+                android:id="@+id/ajoutButtonQuitter"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:text="Quitter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ajoutTextViewMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
