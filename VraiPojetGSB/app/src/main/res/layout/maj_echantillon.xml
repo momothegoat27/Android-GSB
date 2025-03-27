@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="661dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="69dp">
+
+        <TextView
+            android:id="@+id/majTextViewTitre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saisie d'un échantillons :"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/majEditTextCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Saisir ici un code"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/majEditTextQte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Saisir ici une quantité"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/majButtonSupprimer"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Supprimer" />
+
+            <Button
+                android:id="@+id/majButtonModifier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Modifier" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/majButtonQuitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quitter" />
+
+        <TextView
+            android:id="@+id/majTextViewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
